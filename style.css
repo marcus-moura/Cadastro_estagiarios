@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+body{
+    background: #434641;
+}
+/*Topo Menu e botões*/
+.menu{
+    width: 400px;
+    height: 60px;
+    margin-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: -60px;
+    
+    
+}
+.menu h3{
+    margin-bottom: 10px;
+    margin-right: 25px;
+    color: white;    
+}
+.linha{
+    background: rgba(255, 255, 255, 0.171);
+    width: 80%;
+    margin-left: 128px;
+    margin-right: 50%;
+    position: absolute;
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 4px;
+}
+.cadastro{
+    width: 30px;
+    padding: 6px ;
+    background-color: rgb(90, 158, 21);
+    color: white;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;    
+}
+.cadastro:hover{
+    background-color: #55e213;
+}
+.listar{
+    
+    padding: 6px ;
+    /*background-color: #068fff;*/
+    background-color: #696962;
+    color: white;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.listar:hover{
+    background-color: #55e213;
+}
+
+/*alertas de confirmação de envio*/
+.alert-cor {
+    color: #f5f6f8;
+    background-color: rgba(153, 228, 78, 0.8);
+    
+    
+}
+.alert {
+    position: relative;
+    width: 300px;
+    margin: -50px auto;
+    margin-top: 10px;
+    margin-left: 885px;
+    margin-bottom: -68px;
+    text-align: center;
+    padding: 15px;
+    
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.alert-erro {
+    position: relative;
+    width: 300px;
+    margin: -50px auto;
+    margin-top: 10px;
+    margin-left: 885px;
+    margin-bottom: -68px;
+    text-align: center;
+    padding: 15px;
+    
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.alert-corR {
+    color: #f5f6f8;
+    background-color: rgba(236, 29, 14, 0.8);
+    
+    
+}
+/*Formulários de cadastro e edição*/
+div.total{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+         
+}
+.total strong{
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+.formulario{
+    margin: 10px auto;
+}
+form{
+    
+    width: 80%;
+    margin: 100px auto;
+}
+
+input{
+    border:none;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px 0 black;
+    color: white;
+    padding-left: 4px;
+    width: 500px;
+    background-color: rgba(43, 44, 43, 0.8) ; 
+    
+}
+input:focus{
+    outline-style: groove;
+    outline-color:  rgb(255, 255, 255);
+    outline-width: 3px;
+    
+}
+select:focus{
+    outline-style: groove;
+    outline-color:  rgb(255, 255, 255);
+    outline-width: 3px;
+
+}
+select{
+    border:none;
+    height: 32px;
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 5px;
+    margin: 5px auto;
+    width: 400px;
+    box-shadow: 0 2px 6px 0 black;
+    background-color: rgba(43, 44, 43, 0.8) ; 
+}
+input[type="submit"].add {
+    width: 80px;
+    padding: 5px ;
+    background-color: rgb(90, 158, 21);
+    margin-top: 20px;
+    margin-left: 32%;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #55e213;
+}
+input[type="reset"]{
+    width: 80px;
+    color: white;
+    border-radius: 10px;
+    background-color: #ce2929;
+    margin-bottom: 10px;
+    padding: 5px ;
+    margin-left: 15px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+input[type="reset"]:hover{
+    background: #e00b0b;
+}
+label{
+    color: #DAE3D4; 
+}
+
+.container-button{
+    width: 505px;
+}
+.atualizar{
+    
+    margin: 10px auto;
+    width: 100px;
+    cursor: pointer;
+    font-size: 15px;
+    background: rgb(90, 158, 21);
+}
+.return{
+    float: right;
+    width: 100px;
+    color: white;
+    border-radius: 10px;
+    background-color: #696962;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 5px ;
+    font-size: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px 0 black;
+    text-align: center;
+}
+.return:hover{
+    background: rgb(90, 158, 21);
+}
+/*Table, linha, coluna e botões de edição e exclusão*/
+table{
+    
+    margin: 0  auto;
+    margin-top: 100px;
+    
+    font-weight: 400;
+    color: #DAE3D4;
+    
+}
+.contagem{
+    margin-left: 140px;
+    margin-bottom: -80px;
+    margin-top: 100px;
+    color: white;
+    font-weight: 600;
+}
+
+table, th, td {
+  border:none ;
+  font-family: 'Roboto mono';
+  font-weight: 400;
+  font-size: 20px;
+  height: 30px;
+  
+  text-align: center;
+/*Tirar as bordas duplas */  
+  border-collapse: collapse;
+}
+th{
+    height: 40px;
+    color: white;
+    
+}
+tr.color{
+    background: rgb(30, 31, 30, 0.8);
+    height: 40px;
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.2);
+    
+    
+}
+thead{
+    background: rgba(139, 137, 137, 0.2);
+    
+}
+.editar{
+    width: 30px;
+    padding: 5px ;
+    background-color: #55e213;
+    color: white;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.excluir{
+    
+    padding: 5px ;
+    font-size: 12px;
+    background-color: #ff0606;
+    
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+}
